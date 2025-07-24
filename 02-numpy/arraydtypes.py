@@ -23,7 +23,7 @@ print(arr4.dtype) # i4 → 4-byte (32-bit) signed integer
 
 arrc = np.array([1.1, 2.1, 3.1])
 
-newarr = arrc.astype('i')
+newarr = arrc.astype('i')# or arrc.astype(int) -> 64 bit
 
 print(newarr)
 print(newarr.dtype)
