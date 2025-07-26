@@ -37,3 +37,4 @@ for a in np.nditer(arr5):
   print(a)
   
 #iterating with different datatypes
+
