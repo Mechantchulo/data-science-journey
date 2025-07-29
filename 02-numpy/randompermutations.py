@@ -14,4 +14,4 @@ print(arr)
 
 #generating permutations of arrays
 arr1 = np.array([4,5,6,7])
-print(random.permutation(arr1))
+print(random.permutation(arr1))#leaves original array unchanged unlike shuffle
